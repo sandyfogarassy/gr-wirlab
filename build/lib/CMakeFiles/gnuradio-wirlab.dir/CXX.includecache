@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/wirlab/CSI_to_File.h
+wirlab/api.h
+-
+gnuradio/sync_block.h
+-
+
+../include/wirlab/api.h
+gnuradio/attributes.h
+-
+
+/home/sandy/gr-wirlab/lib/CSI_to_File_impl.cc
+config.h
+/home/sandy/gr-wirlab/lib/config.h
+gnuradio/io_signature.h
+-
+CSI_to_File_impl.h
+/home/sandy/gr-wirlab/lib/CSI_to_File_impl.h
+fstream
+-
+iostream
+-
+iomanip
+-
+
+/home/sandy/gr-wirlab/lib/CSI_to_File_impl.h
+wirlab/CSI_to_File.h
+-
+gnuradio/thread/thread.h
+-
+stddef.h
+-
+

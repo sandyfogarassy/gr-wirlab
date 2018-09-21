@@ -1,0 +1,91 @@
+<?xml version="1.0"?>
+<block>
+  <name>CSI_to_File</name>
+  <key>wirlab_CSI_to_File</key>
+  <category>wirlab</category>
+  <import>import wirlab</import>
+  <make>wirlab.CSI_to_File($type.size*$vlen, $keyFilter, $fileName, $append)</make>
+
+  <param>
+      <name>Input Type</name>
+      <key>type</key>
+      <type>enum</type>
+      <option>
+        <name>Complex</name>
+        <key>complex</key>
+        <opt>size:gr.sizeof_gr_complex</opt>
+      </option>
+      <option>
+        <name>Float</name>
+        <key>float</key>
+        <opt>size:gr.sizeof_float</opt>
+      </option>
+      <option>
+        <name>Int</name>
+        <key>int</key>
+        <opt>size:gr.sizeof_int</opt>
+      </option>
+      <option>
+        <name>Short</name>
+        <key>short</key>
+        <opt>size:gr.sizeof_short</opt>
+      </option>
+      <option>
+        <name>Byte</name>
+        <key>byte</key>
+        <opt>size:gr.sizeof_char</opt>
+      </option>
+    </param>
+
+    <param>
+      <name>Key Filter</name>
+      <key>keyFilter</key>
+                  <value>""</value>
+      <type>string</type>
+    </param>
+
+    <param>
+      <name>Num Inputs</name>
+      <key>num_inputs</key>
+      <value>1</value>
+      <type>int</type>
+    </param>
+
+    <param>
+      <name>Vec Length</name>
+      <key>vlen</key>
+      <value>1</value>
+      <type>int</type>
+    </param>
+
+    <param>
+      <name>File Name</name>
+      <key>fileName</key>
+      <value>"CSI.log"</value>
+      <type>string</type>
+    </param>
+
+    <param>
+      <name>Append</name>
+      <key>append</key>
+      <value>True</value>
+      <type>bool</type>
+      <option>
+        <name>Yes</name>
+        <key>True</key>
+      </option>
+      <option>
+        <name>No</name>
+        <key>False</key>
+      </option>
+    </param>
+
+    <check>$num_inputs &gt;= 1</check>
+    <check>$vlen &gt; 0</check>
+    <sink>
+      <name>in</name>
+      <type>$type</type>
+      <vlen>$vlen</vlen>
+      <nports>$num_inputs</nports>
+    </sink>
+</block>

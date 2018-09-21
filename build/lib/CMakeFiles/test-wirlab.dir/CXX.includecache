@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/sandy/gr-wirlab/lib/qa_wirlab.cc
+qa_wirlab.h
+/home/sandy/gr-wirlab/lib/qa_wirlab.h
+
+/home/sandy/gr-wirlab/lib/qa_wirlab.h
+gnuradio/attributes.h
+-
+cppunit/TestSuite.h
+-
+
+/home/sandy/gr-wirlab/lib/test_wirlab.cc
+config.h
+/home/sandy/gr-wirlab/lib/config.h
+cppunit/TextTestRunner.h
+-
+cppunit/XmlOutputter.h
+-
+gnuradio/unittests.h
+-
+qa_wirlab.h
+/home/sandy/gr-wirlab/lib/qa_wirlab.h
+iostream
+-
+fstream
+-
+

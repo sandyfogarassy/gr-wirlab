@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="dir_66d85de81012fe523651515940050920" kind="dir">
+    <compoundname>wirlab</compoundname>
+    <innerfile refid="api_8h">api.h</innerfile>
+    <innerfile refid="CSI__to__File_8h">CSI_to_File.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/sandy/gr-wirlab/include/wirlab/"/>
+  </compounddef>
+</doxygen>

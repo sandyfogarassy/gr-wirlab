@@ -1,0 +1,12 @@
+/home/sandy/gr-wirlab/build/swig/CMakeFiles/_wirlab_swig.dir
+/home/sandy/gr-wirlab/build/swig/CMakeFiles/_wirlab_swig_doc_tag.dir
+/home/sandy/gr-wirlab/build/swig/CMakeFiles/_wirlab_swig_swig_tag.dir
+/home/sandy/gr-wirlab/build/docs/doxygen/CMakeFiles/doxygen_target.dir
+/home/sandy/gr-wirlab/build/lib/CMakeFiles/gnuradio-wirlab.dir
+/home/sandy/gr-wirlab/build/apps/CMakeFiles/pygen_apps_9a6dd.dir
+/home/sandy/gr-wirlab/build/python/CMakeFiles/pygen_python_5df90.dir
+/home/sandy/gr-wirlab/build/swig/CMakeFiles/pygen_swig_b1f6f.dir
+/home/sandy/gr-wirlab/build/lib/CMakeFiles/test-wirlab.dir
+/home/sandy/gr-wirlab/build/CMakeFiles/uninstall.dir
+/home/sandy/gr-wirlab/build/swig/CMakeFiles/wirlab_swig_swig_2d0df.dir
+/home/sandy/gr-wirlab/build/swig/CMakeFiles/wirlab_swig_swig_doc.dir

@@ -1,0 +1,1 @@
+/usr/bin/c++   -O3 -DNDEBUG    CMakeFiles/test-wirlab.dir/test_wirlab.cc.o CMakeFiles/test-wirlab.dir/qa_wirlab.cc.o  -o test-wirlab -rdynamic -lgnuradio-runtime -lgnuradio-pmt -llog4cpp -lboost_filesystem -lboost_system -lcppunit -ldl libgnuradio-wirlab.so -lgnuradio-runtime -lgnuradio-pmt -llog4cpp -lboost_filesystem -lboost_system -Wl,-rpath,/home/sandy/gr-wirlab/build/lib 
