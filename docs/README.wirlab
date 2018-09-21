@@ -1,11 +1,9 @@
-This is the wirlab-write-a-block package meant as a guide to building
-out-of-tree packages. To use the wirlab blocks, the Python namespaces
-is in 'wirlab', which is imported as:
+git clone https://github.com/sandyfogarassy/gr-wirlab.git
 
-    import wirlab
-
-See the Doxygen documentation for details about the blocks available
-in this package. A quick listing of the details can be found in Python
-after importing by using:
-
-    help(wirlab)
+cd gr-wirlabd
+mkdir build
+cd build
+cmake ../
+make
+sudo make install
+sudo ldconfig
